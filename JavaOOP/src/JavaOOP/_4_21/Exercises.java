@@ -62,12 +62,11 @@ public class Exercises {
      *    and can be accessed anywhere in this class, but nowhere else.
      *    use SNAKE_CASE naming
      */
-    //intellij mi segna errore private e static ma l'esercizio chiede espressamente di dichiararli così ._.
     public static void exercise4() {
         System.out.println("\nExercise 4:");
-        private static final int DAYS_IN_WEEK = 7;
-        private static final int WEEKS_IN_YEAR = 52;
-        private static final int HOURS_IN_A_DAY = 24;
+        final int DAYS_IN_WEEK = 7;
+        final int WEEKS_IN_YEAR = 52;
+        final int HOURS_IN_A_DAY = 24;
         for (int week = 0; week < WEEKS_IN_YEAR; week++) {
             for (int day = 0; day < DAYS_IN_WEEK; day++) {
                 for (int hour = 0; hour < HOURS_IN_A_DAY; hour++) {
