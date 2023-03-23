@@ -1,4 +1,4 @@
-package JavaOOP._exercise._1_19;
+package JavaOOP._exercise._2_19;
 
 import java.util.ArrayList;
 import java.util.Arrays;

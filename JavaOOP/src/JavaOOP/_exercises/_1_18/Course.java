@@ -1,6 +1,7 @@
 package JavaOOP._exercises._1_18;
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Course {
@@ -9,7 +10,7 @@ public class Course {
     double qualityRatingOutOf10;
     int durationInDays;
     List<String> studentNames;
-    List<Student> student;
+    List<Student> student = new ArrayList<>();
 }
 
 

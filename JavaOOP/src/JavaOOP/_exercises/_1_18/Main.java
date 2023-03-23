@@ -70,16 +70,13 @@ public class Main {
         Course course = new Course();
         List<String> studentNames = Arrays.asList("Alice", "Aragon", "Alex");
         List<Integer> studentAges = Arrays.asList(23, 31, 38);
-
         double averageAge = 0;
         for (int i = 0; i < studentAges.size(); i++) {
             Student newStudent = createNewStudent(studentNames.get(i), studentAges.get(i));
-            System.out.println(newStudent);
-            //course.student.add(newStudent);
+            course.student.add(newStudent);
             averageAge += studentAges.get(i);
-            System.out.println(i + " " + averageAge);
         }
-        averageAge /= studentNames.size();
-        System.out.println(averageAge);
+        averageAge /= studentAges.size();
+        System.out.println("L'età media degli studenti è " + averageAge);
     }
 }

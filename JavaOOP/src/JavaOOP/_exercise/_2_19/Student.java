@@ -1,4 +1,4 @@
-package JavaOOP._exercise._1_19;
+package JavaOOP._exercise._2_19;
 
 public class Student {
     String name;
@@ -27,5 +27,6 @@ public class Student {
         this.name = name;
     }
 
-    Student(){}
+    public Student(){}
+
 }
